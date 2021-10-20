@@ -233,8 +233,8 @@ justify-content: center;
 
         .imagen-g {
 
-            max-width: 290px;
-            max-height: 100px;
+            max-width:250px;
+            max-height: auto;
             
             
               }
@@ -260,7 +260,12 @@ justify-content: center;
                             }
 
 
-             
+              iframe {
+
+                            width:280px;
+                                max-height: 100px;
+
+                            }
                       
                             .dos-videos {
 
