@@ -227,10 +227,67 @@ display:flex;
 justify-content: center;
 }
 
-@media screen and (max-width:900px) {
+
+
+    @media screen and (max-width:450px) {
+
+        .imagen-g {
+
+            max-width: 290px;
+            max-height: 100px;
+            
+            
+              }
 
 
 
+      
+              .sculpt {
+
+                max-width: 280px;
+                max-height: 150px;
+                
+                            
+                            }
+
+
+
+                            .contenido-dos {
+
+                                max-width: 260px;
+                                max-height: 100px;
+
+                            }
+
+
+             
+                      
+                            .dos-videos {
+
+
+                            grid-template-columns: 1fr;
+                            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                            justify-content: center;
+                            text-align: center;
+                            
+                            margin: 0px auto;
+                            margin-top:10px;
+                            
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: column;
+
+                        }
+
+
+    }
+
+
+    @media screen and (max-width:900px) {
+
+
+    
 /*     Pagina inicial                   */ 
 
 .contenido-uno{
@@ -242,6 +299,9 @@ justify-content: center;
         
    
   }
+
+
+
 
 .piezas-generales {
 
@@ -360,6 +420,9 @@ display:none;
         
         
         }
+
+
+
     .videos{
 
 display: flex;
